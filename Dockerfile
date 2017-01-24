@@ -17,3 +17,4 @@ WORKDIR KronaTools-2.7
 RUN ./install.pl
 RUN ./updateAccessions.sh
 RUN ./updateTaxonomy.sh
+WORKDIR /
