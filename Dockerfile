@@ -7,12 +7,8 @@ RUN apt-get update
 
 RUN apt-get install --yes \
  build-essential \
- wget
-# default-jre \
-# default-jdk
-
-# Get latest source from releases
-#ENV PATH="/opt/gtk/bin:${PATH}"
+ wget \
+ curl
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN wget https://github.com/marbl/Krona/releases/download/v2.7/KronaTools-2.7.tar
