@@ -15,6 +15,6 @@ RUN wget https://github.com/marbl/Krona/releases/download/v2.7/KronaTools-2.7.ta
 RUN tar -xvf KronaTools-2.7.tar
 WORKDIR KronaTools-2.7
 RUN ./install.pl
-RUN ./updateAccessions.sh
-RUN ./updateTaxonomy.sh
+#RUN ./updateAccessions.sh
+#RUN ./updateTaxonomy.sh
 WORKDIR /
